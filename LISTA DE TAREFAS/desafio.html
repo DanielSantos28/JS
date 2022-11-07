@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" 
+    rel="stylesheet"><link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" 
+    integrity="sha512-xA6Hp6oezhjd6LiLZynuukm80f8BoZ3OpcEYaqKoCV3HKQDrYjDE1Gu8ocxgxoXmwmSzM4iqPvCsOkQNiu41GA==" 
+    crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="estilo.css">
+    <title>Lista de tarefas</title>
+</head>
+<body>
+    <header>
+        <h1>Tarefas</h1>
+        <form>
+            <input type="text" class="tarefa-input" placeholder="TAREFA" >
+            <input type="date" class="data">
+            <button class="tarefa-button" type="submit" >
+                <i class="fas fa-plus-square"></i>
+            </button>
+            
+            <div class="select">
+                <select name="todos" class="filter-tarefa">
+                    <option value="todos">Todos</option>
+                    <option value="completos">Completo</option>
+                    <option value="incompletos">Incompleto</option>
+                </select>
+            </div>
+        </form>
+       
+        </div>
+    </header>
+        <h1>LISTA</h1>
+    <div class="tarefa-container">
+        <ul class="tarefa-list"></ul>
+    </div>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
